@@ -1,49 +1,13 @@
-
-/*MEDIA SETTINGS*/
-body {
-		background: url("../img/Copia de Landscape.jpg");
-	    background-repeat: no-repeat;
-	    background-position: cover;
-	}
-@media (min-width: 535px) and (max-width: 824px) {
-	[class*="col-"] {
-		width: 100%;
-	}
-}
-/* cambia apariencia del body q tenga estas medidas*/
-
-@media (min-width: 200px) and (max-width:  534px) {
-	[class*-"col"] {
-		width: 100%;
-	}
-}
-
-
 /* cambia solo la propiedad background-image */
-@media (min-width: 1px) and (max-width: 330px) { /*CHICO*/
+@media (max-width: 420px) { /*CHICO*/
     body {
-    	background-image: url("../img/Copia de maxresdefault.jpg");        
-    }
-    img {
-    	display: center;		
+    	background-image: url("../img/Copia de maxresdefault.jpg");       
     }
 }
 
-@media (min-width:331px) and (max-width: 465px) { /*MEDIANO*/
+@media (min-width:421px) and (max-width: 767px) { /*MEDIANO*/
     body {
         background-image: url("../img/Copia de dawn.png");
     }
-    img {
-    	display: center;
-		}
 }
 
-@media (min-width: 466px) and (max-width: 1200px) { /*GRANDE */
-    body {
-        background-image:  url("../img/Copia de Landscape.jpg");
-        background-size: cover;
-    }
-    img {
-    	display: center;
-    }
-}				
